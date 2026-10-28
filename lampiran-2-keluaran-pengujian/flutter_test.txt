@@ -42,13 +42,13 @@ Got dependencies!
 Try `flutter pub outdated` for more information.
 00:00 +0: loading /root/project_mat/digifact/test/data/history_repository_test.dart
 00:00 +0: /root/project_mat/digifact/test/data/history_repository_test.dart: riwayat kosong pada awalnya
-00:00 +1: /root/project_mat/digifact/test/data/history_repository_test.dart: riwayat kosong pada awalnya
-00:00 +2: /root/project_mat/digifact/test/data/history_repository_test.dart: riwayat kosong pada awalnya
-00:00 +3: /root/project_mat/digifact/test/data/detection_repository_test.dart: timeout dipetakan ke TimeoutFailure
-00:00 +4: /root/project_mat/digifact/test/data/history_repository_test.dart: data yang disimpan dapat dibaca kembali utuh
-00:00 +5: /root/project_mat/digifact/test/data/history_repository_test.dart: clearHistory menghapus semua data
-00:00 +6: /root/project_mat/digifact/test/data/history_repository_test.dart: data korup di penyimpanan tidak membuat aplikasi crash
-00:00 +7: /root/project_mat/digifact/test/data/history_repository_test.dart: kegagalan penyimpanan dipetakan menjadi CacheFailure
+00:00 +1: /root/project_mat/digifact/test/data/history_repository_test.dart: data yang disimpan dapat dibaca kembali utuh
+00:00 +2: /root/project_mat/digifact/test/data/history_repository_test.dart: clearHistory menghapus semua data
+00:00 +3: /root/project_mat/digifact/test/data/history_repository_test.dart: data korup di penyimpanan tidak membuat aplikasi crash
+00:00 +4: /root/project_mat/digifact/test/data/history_repository_test.dart: kegagalan penyimpanan dipetakan menjadi CacheFailure
+00:00 +5: /root/project_mat/digifact/test/data/detection_repository_test.dart: ServerException dipetakan ke ServerFailure
+00:00 +6: /root/project_mat/digifact/test/data/detection_repository_test.dart: NetworkException dipetakan ke NetworkFailure
+00:00 +7: /root/project_mat/digifact/test/data/detection_repository_test.dart: timeout dipetakan ke TimeoutFailure
 00:00 +8: /root/project_mat/digifact/test/data/detection_result_model_test.dart: fromJson memetakan respons API dan memberi id default
 00:00 +9: /root/project_mat/digifact/test/data/detection_result_model_test.dart: toJson -> fromJson bersifat round-trip
 00:00 +10: /root/project_mat/digifact/test/data/history_data_source_contract_test.dart: kontrak data source: SharedPreferences kosong pada awalnya
@@ -60,96 +60,98 @@ Try `flutter pub outdated` for more information.
 00:00 +16: /root/project_mat/digifact/test/data/history_data_source_contract_test.dart: kontrak data source: File JSON simpan lalu baca kembali utuh (termasuk penjelasan XAI)
 00:00 +17: /root/project_mat/digifact/test/data/history_data_source_contract_test.dart: kontrak data source: File JSON aturan bisnis SaveResult berlaku: terbaru dulu, id sama menimpa
 00:00 +18: /root/project_mat/digifact/test/data/history_data_source_contract_test.dart: kontrak data source: File JSON batas 50 item ditegakkan use case, bukan data source
-00:01 +19: /root/project_mat/digifact/test/data/history_data_source_contract_test.dart: kontrak data source: File JSON hapus satu item dan hapus semua
-00:01 +20: /root/project_mat/digifact/test/presentation/startup_flow_test.dart: splash -> beranda untuk pengguna yang sudah melihat onboarding
+00:00 +19: /root/project_mat/digifact/test/data/history_data_source_contract_test.dart: kontrak data source: File JSON hapus satu item dan hapus semua
+00:00 +20: /root/project_mat/digifact/test/presentation/startup_flow_test.dart: splash -> beranda untuk pengguna yang sudah melihat onboarding
 00:01 +21: /root/project_mat/digifact/test/presentation/startup_flow_test.dart: splash -> beranda untuk pengguna yang sudah melihat onboarding
 00:01 +22: /root/project_mat/digifact/test/presentation/startup_flow_test.dart: splash -> beranda untuk pengguna yang sudah melihat onboarding
 00:01 +23: /root/project_mat/digifact/test/presentation/startup_flow_test.dart: splash -> beranda untuk pengguna yang sudah melihat onboarding
-00:07 +24: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
-00:16 +25: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
-00:16 +26: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
-00:17 +27: /root/project_mat/digifact/test/presentation/onboarding_layar_kecil_test.dart: onboarding tidak meluap pada 411 x 731 dp (emulator uji)
-00:17 +28: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
-00:17 +29: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
-00:17 +30: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
-00:17 +31: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
-00:17 +32: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
-00:17 +33: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
-00:18 +34: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +35: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +36: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +37: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +38: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +39: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +40: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +41: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +42: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +43: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +44: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +45: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +46: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +47: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +48: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +49: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
-00:18 +50: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: memuat riwayat terurut terbaru lebih dulu
-00:18 +51: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: memuat riwayat terurut terbaru lebih dulu
-00:18 +52: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: memuat riwayat terurut terbaru lebih dulu
-00:18 +53: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: memuat riwayat terurut terbaru lebih dulu
-00:18 +54: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: memuat riwayat terurut terbaru lebih dulu
-00:18 +55: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: memuat riwayat terurut terbaru lebih dulu
-00:18 +56: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +57: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +58: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +59: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +60: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +61: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +62: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +63: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +64: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +65: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +66: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +67: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +68: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +69: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +70: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +71: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +72: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +73: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +74: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +75: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +76: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +77: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +78: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +79: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +80: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +81: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
-00:19 +82: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: detect sukses: loading true saat berjalan, false setelahnya, riwayat tersimpan
-00:19 +83: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: detect sukses: loading true saat berjalan, false setelahnya, riwayat tersimpan
-00:19 +84: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: openResult membuka halaman hasil dengan status tersimpan
-00:19 +85: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: openResult membuka halaman hasil dengan status tersimpan
-00:19 +86: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
-00:20 +87: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: gagal menyimpan riwayat: hasil tetap tampil dan tidak tersimpan
-00:20 +88: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:20 +89: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:20 +90: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:20 +91: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:20 +92: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:20 +93: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:20 +94: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:20 +95: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:20 +96: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
-00:21 +97: /root/project_mat/digifact/test/golden/screens_golden_test.dart: onboarding
-00:22 +98: /root/project_mat/digifact/test/golden/screens_golden_test.dart: onboarding 2
-00:24 +99: /root/project_mat/digifact/test/golden/screens_golden_test.dart: onboarding 3
-00:25 +100: /root/project_mat/digifact/test/golden/screens_golden_test.dart: home kosong
-00:25 +101: /root/project_mat/digifact/test/golden/screens_golden_test.dart: home dengan riwayat
-00:26 +102: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil hoaks
-00:26 +103: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil fakta
-00:27 +104: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil netral
-00:27 +105: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil tab shap
-00:28 +106: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil tab lime
-00:28 +107: /root/project_mat/digifact/test/golden/screens_golden_test.dart: riwayat berisi
-00:28 +108: /root/project_mat/digifact/test/golden/screens_golden_test.dart: riwayat kosong
-00:29 +109: /root/project_mat/digifact/test/golden/screens_golden_test.dart: edukasi
-00:29 +110: /root/project_mat/digifact/test/golden/screens_golden_test.dart: (tearDownAll)
-00:29 +110: All tests passed!
+00:02 +24: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:02 +25: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +26: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +27: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +28: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +29: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +30: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +31: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +32: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +33: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +34: /root/project_mat/digifact/test/presentation/home_flow_test.dart: deteksi berhasil: membuka halaman hasil dan menyimpan riwayat
+00:03 +35: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +36: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +37: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +38: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +39: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +40: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +41: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +42: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +43: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +44: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +45: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +46: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +47: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +48: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +49: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:03 +50: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:04 +51: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:04 +52: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:04 +53: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:04 +54: /root/project_mat/digifact/test/presentation/result_history_flow_test.dart: ResultScreen bookmark: hapus lalu simpan kembali memperbarui riwayat
+00:04 +55: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
+00:04 +56: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: state awal mengikuti argumen route
+00:04 +57: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +58: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +59: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +60: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +61: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +62: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +63: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +64: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +65: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +66: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna baru diarahkan ke onboarding
+00:04 +67: /root/project_mat/digifact/test/presentation/controllers/result_controller_test.dart: toggleSave: simpan lalu hapus, konsisten dengan penyimpanan
+00:04 +68: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: detect sukses: loading true saat berjalan, false setelahnya, riwayat tersimpan
+00:04 +69: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: detect sukses: loading true saat berjalan, false setelahnya, riwayat tersimpan
+00:05 +70: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: detect sukses: loading true saat berjalan, false setelahnya, riwayat tersimpan
+00:05 +71: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +72: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +73: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +74: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +75: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +76: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +77: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +78: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +79: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +80: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +81: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +82: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +83: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +84: /root/project_mat/digifact/test/presentation/controllers/startup_controllers_test.dart: SplashController: pengguna lama diarahkan ke beranda
+00:05 +85: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: riwayat dimuat ulang setelah kembali dari halaman hasil
+00:05 +86: /root/project_mat/digifact/test/presentation/controllers/history_controller_test.dart: riwayat dimuat ulang setelah kembali dari halaman hasil
+00:05 +87: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: gagal menyimpan riwayat: hasil tetap tampil dan tidak tersimpan
+00:05 +88: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: gagal menyimpan riwayat: hasil tetap tampil dan tidak tersimpan
+00:05 +89: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: gagal menyimpan riwayat: hasil tetap tampil dan tidak tersimpan
+00:05 +90: /root/project_mat/digifact/test/presentation/controllers/home_controller_test.dart: gagal menyimpan riwayat: hasil tetap tampil dan tidak tersimpan
+00:05 +91: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
+00:05 +92: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
+00:05 +93: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
+00:05 +94: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
+00:06 +95: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
+00:06 +96: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
+00:06 +97: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
+00:06 +98: /root/project_mat/digifact/test/golden/screens_golden_test.dart: splash
+00:07 +99: /root/project_mat/digifact/test/golden/screens_golden_test.dart: onboarding
+00:08 +100: /root/project_mat/digifact/test/golden/screens_golden_test.dart: onboarding 2
+00:09 +101: /root/project_mat/digifact/test/golden/screens_golden_test.dart: onboarding 3
+00:10 +102: /root/project_mat/digifact/test/golden/screens_golden_test.dart: home kosong
+00:11 +103: /root/project_mat/digifact/test/golden/screens_golden_test.dart: home dengan riwayat
+00:11 +104: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil hoaks
+00:12 +105: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil fakta
+00:12 +106: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil netral
+00:13 +107: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil tab shap
+00:13 +108: /root/project_mat/digifact/test/golden/screens_golden_test.dart: hasil tab lime
+00:13 +109: /root/project_mat/digifact/test/golden/screens_golden_test.dart: riwayat berisi
+00:14 +110: /root/project_mat/digifact/test/golden/screens_golden_test.dart: riwayat kosong
+00:14 +111: /root/project_mat/digifact/test/golden/screens_golden_test.dart: edukasi
+00:14 +112: /root/project_mat/digifact/test/golden/screens_golden_test.dart: (tearDownAll)
+00:14 +112: All tests passed!

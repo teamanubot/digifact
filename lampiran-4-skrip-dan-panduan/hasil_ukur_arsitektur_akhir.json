@@ -1,11 +1,11 @@
 {
   "versi": "akhir",
   "berkas": 104,
-  "baris_tidak_kosong": 6026,
-  "rata_rata_baris": 57.9,
+  "baris_tidak_kosong": 6049,
+  "rata_rata_baris": 58.2,
   "terbesar": [
-    "presentation/pages/result/widgets/xai_tabs.dart",
-    259
+    "presentation/pages/home/widgets/input_card.dart",
+    277
   ],
   "berkas_di_atas_300": 0,
   "berkas_di_atas_500": 0,

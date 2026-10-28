@@ -28,7 +28,7 @@ tool/uji_lokal.sh
 
 Skrip menjalankan `flutter test --coverage`, menghitung cakupan per lapisan, menjalankan `tool/ukur_arsitektur.py`, dan menjalankan `pytest` pada API. Hasilnya di `docs/bukti_uji_lokal/<waktu>/`.
 
-Hasil acuan (28 Oktober 2026): **110 tes aplikasi lulus**, cakupan **95,9%** (domain 96,3%, controller 94,9%, data 76,1%, presentation 97,7%, core 52,2%), **27 tes API lulus**, 104 berkas, terbesar 259 baris.
+Hasil acuan (28 Oktober 2026): **112 tes aplikasi lulus**, cakupan **96,1%** (domain 96,3%, controller 94,9%, data 76,1%, presentation 98,0%, core 52,2%), **27 tes API lulus**, 104 berkas, terbesar 259 baris.
 
 Cara manual tanpa skrip:
 

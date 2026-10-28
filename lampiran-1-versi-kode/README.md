@@ -25,7 +25,7 @@ Hasil yang diharapkan:
 | Ukuran | Kode awal | Kode akhir |
 |---|---|---|
 | Berkas Dart | 10 | 104 |
-| Baris tidak kosong | 4.784 | 6.026 |
+| Baris tidak kosong | 4.784 | 6.049 |
 | Berkas di atas 300 / 500 baris | 6 / 4 | 0 / 0 |
 | Impor lintas lapisan | 16 | 169 |
 
