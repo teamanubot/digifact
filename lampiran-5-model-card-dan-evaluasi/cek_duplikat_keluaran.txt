@@ -1,0 +1,8 @@
+dataset 3188 latih 2550 uji 638
+duplikat persis (teks ternormalisasi) dalam dataset: 11
+teks uji yang persis sama dengan teks latih: 5
+uji vs latih: n=638, median=0.304, maks=1.000; >=0.8: 18, >=0.9: 10, >=0.95: 6
+latih vs latih (selain diri sendiri): n=2550, median=0.315, maks=1.000; >=0.8: 60, >=0.9: 34, >=0.95: 15
+uji eksternal vs latih+uji: n=104, median=0.258, maks=0.691; >=0.8: 0, >=0.9: 0, >=0.95: 0
+akurasi uji semua: 0.8871 (638); tanpa pasangan >=0.8: 0.8839 (620); pada pasangan >=0.8: 1.0000 (18)
+setelah buang duplikat persis: n=3177, akurasi uji=0.8868

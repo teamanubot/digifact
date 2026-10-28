@@ -1,0 +1,64 @@
+   Woah! You appear to be trying to run flutter as root.
+   We strongly recommend running the flutter tool without superuser privileges.
+  /
+📎
+Resolving dependencies...
+Downloading packages...
+  archive 4.0.9 (4.5.2 available)
+  cli_util 0.4.2 (0.6.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  crypto 3.0.7 (3.0.8 available)
+  cupertino_icons 1.0.9 (2.0.0 available)
+  flutter_launcher_icons 0.13.1 (0.14.4 available)
+  google_fonts 6.3.3 (9.0.0 available)
+  hooks 2.0.2 (2.2.0 available)
+  image 4.9.1 (4.12.0 available)
+  intl 0.19.0 (0.20.3 available)
+  jni 1.0.0 (1.1.1 available)
+  jni_flutter 1.0.1 (1.0.4+1 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.0 (1.19.0 available)
+  objective_c 9.4.1 (9.6.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  posix 6.5.0 (6.5.3 available)
+  pub_semver 2.2.0 (2.2.1 available)
+  record_use 0.6.0 (1.1.1 available)
+  shared_preferences 2.5.5 (2.5.6 available)
+  shared_preferences_android 2.4.26 (2.5.4 available)
+  shared_preferences_foundation 2.5.6 (2.6.1 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.11 (0.7.15 available)
+  vector_math 2.2.0 (2.4.4 available)
+  vm_service 15.2.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+  xml 7.0.1 (7.1.0 available)
+  yaml 3.1.3 (3.1.4 available)
+Got dependencies!
+33 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /root/project_mat/digifact/integration_test/ujian_perangkat_test.dart
+Running Gradle task 'assembleDebug'...                          
+   Woah! You appear to be trying to run flutter as root.
+   We strongly recommend running the flutter tool without superuser privileges.
+  /
+📎
+Running Gradle task 'assembleDebug'...                             11.8s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...           6.2s
+00:00 +0: uji perangkat DigiFact
+UJI|onboarding tampil pada pemasangan baru|LULUS|
+UJI|onboarding sampai beranda|LULUS|
+UJI|status layanan online|LULUS|
+UJI|masukan kurang dari 10 karakter ditolak|LULUS|
+UJI|teks kurang dari 12 kata menghasilkan hasil|LULUS|1633ms
+UJI|latensi end-to-end teks valid|LULUS|n=5; median=1616ms; maks=1790ms; semua=[1790, 1616, 1629, 1598, 1613]
+UJI|rincian waktu (Server-Timing)|LULUS|median ms: total=1247; layanan=822 (prediksi=59, shap=218, lime=549); jaringan dan koneksi=411
+UJI|tautan alamat internal ditolak|LULUS|
+UJI|riwayat tersimpan|LULUS|terbaru=3
+UJI|halaman riwayat terbuka|LULUS|
+00:56 +1: (tearDownAll)
+00:56 +1: All tests passed!

@@ -1,0 +1,7 @@
+TOTAL: 95.9% (2099/2189 baris)
+lib/app: 93.8% (30/32 baris)
+lib/core: 52.2% (12/23 baris)
+lib/data: 76.1% (89/117 baris)
+lib/domain: 96.3% (52/54 baris)
+lib/presentation: 97.7% (1823/1865 baris)
+lib/presentation/controllers: 94.9% (93/98 baris)

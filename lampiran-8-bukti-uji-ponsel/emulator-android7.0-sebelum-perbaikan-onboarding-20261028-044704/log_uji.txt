@@ -1,0 +1,401 @@
+   Woah! You appear to be trying to run flutter as root.
+   We strongly recommend running the flutter tool without superuser privileges.
+  /
+📎
+Resolving dependencies...
+Downloading packages...
+  archive 4.0.9 (4.5.2 available)
+  cli_util 0.4.2 (0.6.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  crypto 3.0.7 (3.0.8 available)
+  cupertino_icons 1.0.9 (2.0.0 available)
+  flutter_launcher_icons 0.13.1 (0.14.4 available)
+  google_fonts 6.3.3 (9.0.0 available)
+  hooks 2.0.2 (2.2.0 available)
+  image 4.9.1 (4.12.0 available)
+  intl 0.19.0 (0.20.3 available)
+  jni 1.0.0 (1.1.1 available)
+  jni_flutter 1.0.1 (1.0.4+1 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.0 (1.19.0 available)
+  objective_c 9.4.1 (9.6.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  posix 6.5.0 (6.5.3 available)
+  pub_semver 2.2.0 (2.2.1 available)
+  record_use 0.6.0 (1.1.1 available)
+  shared_preferences 2.5.5 (2.5.6 available)
+  shared_preferences_android 2.4.26 (2.5.4 available)
+  shared_preferences_foundation 2.5.6 (2.6.1 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.11 (0.7.15 available)
+  vector_math 2.2.0 (2.4.4 available)
+  vm_service 15.2.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+  xml 7.0.1 (7.1.0 available)
+  yaml 3.1.3 (3.1.4 available)
+Got dependencies!
+33 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /root/project_mat/digifact/integration_test/ujian_perangkat_test.dart
+Running Gradle task 'assembleDebug'...                          
+   Woah! You appear to be trying to run flutter as root.
+   We strongly recommend running the flutter tool without superuser privileges.
+  /
+📎
+Running Gradle task 'assembleDebug'...                            353.5s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...           4.8s
+00:00 +0: uji perangkat DigiFact
+UJI|onboarding tampil pada pemasangan baru|LULUS|
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 93 pixels on the bottom.
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#024b7 DISPOSED OVERFLOWING:
+  needs compositing
+  creator: MultiChildRenderObjectElement#676a9(DEFUNCT) ←
+    SingleChildRenderObjectElement#18802(DEFUNCT) ← SingleChildRenderObjectElement#5b50a(DEFUNCT) ←
+    StatefulElement#bd6a1(DEFUNCT) ← SingleChildRenderObjectElement#30cdb(DEFUNCT) ←
+    StatelessElement#0c19c(DEFUNCT) ← SingleChildRenderObjectElement#f34e1(DEFUNCT) ←
+    SingleChildRenderObjectElement#a5ef2(DEFUNCT) ← StatefulElement#51e6a(DEFUNCT) ←
+    _NotificationElement<KeepAliveNotification>#72417(DEFUNCT) ←
+    ParentDataElement<KeepAliveParentDataMixin>#e49e8(DEFUNCT) ← StatefulElement#8aba7(DEFUNCT) ← ⋯
+  parentData: <none> (can use size)
+  constraints: BoxConstraints(w=355.4, h=465.4)
+  size: Size(355.4, 465.4)
+  direction: vertical
+  mainAxisAlignment: center
+  mainAxisSize: max
+  crossAxisAlignment: center
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 93 pixels on the bottom.
+
+The relevant error-causing widget was:
+  Column
+  Column:file:///root/project_mat/digifact/lib/presentation/pages/onboarding/widgets/slide_page.dart:25:18
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#f4cfa OVERFLOWING:
+  needs compositing
+  creator: Column ← FadeTransition ← FractionalTranslation ← SlideTransition ← Padding ← SlidePage ←
+    RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
+    NotificationListener<KeepAliveNotification> ← KeepAlive ← AutomaticKeepAlive ← ⋯
+  parentData: <none> (can use size)
+  constraints: BoxConstraints(w=355.4, h=465.4)
+  size: Size(355.4, 465.4)
+  direction: vertical
+  mainAxisAlignment: center
+  mainAxisSize: max
+  crossAxisAlignment: center
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY WIDGET INSPECTOR ╞══════════════════════════════════════════════════════════
+The following assertion was thrown:
+Looking up a deactivated widget's ancestor is unsafe.
+At this point the state of the widget's element tree is no longer stable.
+To safely refer to a widget's ancestor in its dispose() method, save a reference to the ancestor by
+calling dependOnInheritedWidgetOfExactType() in the widget's didChangeDependencies() method.
+
+When the exception was thrown, this was the stack:
+#0      Element._debugCheckStateIsActiveForAncestorLookup.<anonymous closure> (package:flutter/src/widgets/framework.dart:5049:9)
+#1      Element._debugCheckStateIsActiveForAncestorLookup (package:flutter/src/widgets/framework.dart:5063:6)
+#2      Element.visitAncestorElements (package:flutter/src/widgets/framework.dart:5174:12)
+#3      _describeRelevantUserCode (package:flutter/src/widgets/widget_inspector.dart:4242:13)
+#4      _parseDiagnosticsNode (package:flutter/src/widgets/widget_inspector.dart:4161:12)
+#5      debugTransformDebugCreator (package:flutter/src/widgets/widget_inspector.dart:4140:21)
+#6      _FlutterErrorDetailsNode.builder (package:flutter/src/foundation/assertions.dart:1300:31)
+#7      DiagnosticableNode.getProperties (package:flutter/src/foundation/diagnostics.dart:2943:68)
+#8      TextTreeRenderer._debugRender (package:flutter/src/foundation/diagnostics.dart:1270:63)
+#9      TextTreeRenderer.render (package:flutter/src/foundation/diagnostics.dart:1137:14)
+#10     FlutterError.dumpErrorToConsole (package:flutter/src/foundation/assertions.dart:1030:13)
+#11     TestWidgetsFlutterBinding._runTest.<anonymous closure> (package:flutter_test/src/binding.dart:1779:24)
+#12     FlutterError.reportError (package:flutter/src/foundation/assertions.dart:1193:14)
+#13     DebugOverflowIndicatorMixin._reportOverflow (package:flutter/src/rendering/debug_overflow_indicator.dart:259:18)
+#14     DebugOverflowIndicatorMixin.paintOverflowIndicator (package:flutter/src/rendering/debug_overflow_indicator.dart:329:7)
+#15     RenderFlex.paint.<anonymous closure> (package:flutter/src/rendering/flex.dart:1449:7)
+#16     RenderFlex.paint (package:flutter/src/rendering/flex.dart:1457:6)
+#17     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#18     PaintingContext.paintChild (package:flutter/src/rendering/object.dart:265:13)
+#19     RenderProxyBoxMixin.paint (package:flutter/src/rendering/proxy_box.dart:143:13)
+#20     RenderAnimatedOpacityMixin.paint (package:flutter/src/rendering/proxy_box.dart:1079:11)
+#21     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#22     PaintingContext._repaintCompositedChild (package:flutter/src/rendering/object.dart:180:11)
+#23     PaintingContext.repaintCompositedChild (package:flutter/src/rendering/object.dart:125:5)
+#24     PaintingContext._compositeChild (package:flutter/src/rendering/object.dart:276:7)
+#25     PaintingContext.paintChild (package:flutter/src/rendering/object.dart:257:7)
+#26     RenderProxyBoxMixin.paint (package:flutter/src/rendering/proxy_box.dart:143:13)
+#27     RenderFractionalTranslation.paint (package:flutter/src/rendering/proxy_box.dart:3138:13)
+#28     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#29     PaintingContext.paintChild (package:flutter/src/rendering/object.dart:265:13)
+#30     RenderShiftedBox.paint (package:flutter/src/rendering/shifted_box.dart:98:15)
+#31     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#32     PaintingContext.paintChild (package:flutter/src/rendering/object.dart:265:13)
+#33     RenderProxyBoxMixin.paint (package:flutter/src/rendering/proxy_box.dart:143:13)
+#34     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#35     PaintingContext._repaintCompositedChild (package:flutter/src/rendering/object.dart:180:11)
+#36     PaintingContext.repaintCompositedChild (package:flutter/src/rendering/object.dart:125:5)
+#37     PipelineOwner.flushPaint (package:flutter/src/rendering/object.dart:1325:31)
+#38     PipelineOwner.flushPaint (package:flutter/src/rendering/object.dart:1335:15)
+#39     RendererBinding.drawFrame (package:flutter/src/rendering/binding.dart:645:23)
+#40     WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:1573:13)
+#41     RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:509:5)
+#42     SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#43     SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#44     LiveTestWidgetsFlutterBinding.handleDrawFrame (package:flutter_test/src/binding.dart:2811:13)
+#45     SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1198:5)
+#49     _invoke (dart:ui/hooks.dart:425:10)
+#50     PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:447:5)
+#51     _drawFrame (dart:ui/hooks.dart:395:31)
+(elided 3 frames from dart:async)
+
+This exception was caught while trying to describe the user-relevant code of another error.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY WIDGET INSPECTOR ╞══════════════════════════════════════════════════════════
+The following assertion was thrown:
+Looking up a deactivated widget's ancestor is unsafe.
+At this point the state of the widget's element tree is no longer stable.
+To safely refer to a widget's ancestor in its dispose() method, save a reference to the ancestor by
+calling dependOnInheritedWidgetOfExactType() in the widget's didChangeDependencies() method.
+
+When the exception was thrown, this was the stack:
+#0      Element._debugCheckStateIsActiveForAncestorLookup.<anonymous closure> (package:flutter/src/widgets/framework.dart:5049:9)
+#1      Element._debugCheckStateIsActiveForAncestorLookup (package:flutter/src/widgets/framework.dart:5063:6)
+#2      Element.visitAncestorElements (package:flutter/src/widgets/framework.dart:5174:12)
+#3      _describeRelevantUserCode (package:flutter/src/widgets/widget_inspector.dart:4242:13)
+#4      _parseDiagnosticsNode (package:flutter/src/widgets/widget_inspector.dart:4161:12)
+#5      debugTransformDebugCreator (package:flutter/src/widgets/widget_inspector.dart:4140:21)
+#6      _FlutterErrorDetailsNode.builder (package:flutter/src/foundation/assertions.dart:1300:31)
+#7      DiagnosticableNode.emptyBodyDescription (package:flutter/src/foundation/diagnostics.dart:2939:45)
+#8      TextTreeRenderer._debugRender (package:flutter/src/foundation/diagnostics.dart:1307:14)
+#9      TextTreeRenderer.render (package:flutter/src/foundation/diagnostics.dart:1137:14)
+#10     FlutterError.dumpErrorToConsole (package:flutter/src/foundation/assertions.dart:1030:13)
+#11     TestWidgetsFlutterBinding._runTest.<anonymous closure> (package:flutter_test/src/binding.dart:1779:24)
+#12     FlutterError.reportError (package:flutter/src/foundation/assertions.dart:1193:14)
+#13     DebugOverflowIndicatorMixin._reportOverflow (package:flutter/src/rendering/debug_overflow_indicator.dart:259:18)
+#14     DebugOverflowIndicatorMixin.paintOverflowIndicator (package:flutter/src/rendering/debug_overflow_indicator.dart:329:7)
+#15     RenderFlex.paint.<anonymous closure> (package:flutter/src/rendering/flex.dart:1449:7)
+#16     RenderFlex.paint (package:flutter/src/rendering/flex.dart:1457:6)
+#17     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#18     PaintingContext.paintChild (package:flutter/src/rendering/object.dart:265:13)
+#19     RenderProxyBoxMixin.paint (package:flutter/src/rendering/proxy_box.dart:143:13)
+#20     RenderAnimatedOpacityMixin.paint (package:flutter/src/rendering/proxy_box.dart:1079:11)
+#21     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#22     PaintingContext._repaintCompositedChild (package:flutter/src/rendering/object.dart:180:11)
+#23     PaintingContext.repaintCompositedChild (package:flutter/src/rendering/object.dart:125:5)
+#24     PaintingContext._compositeChild (package:flutter/src/rendering/object.dart:276:7)
+#25     PaintingContext.paintChild (package:flutter/src/rendering/object.dart:257:7)
+#26     RenderProxyBoxMixin.paint (package:flutter/src/rendering/proxy_box.dart:143:13)
+#27     RenderFractionalTranslation.paint (package:flutter/src/rendering/proxy_box.dart:3138:13)
+#28     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#29     PaintingContext.paintChild (package:flutter/src/rendering/object.dart:265:13)
+#30     RenderShiftedBox.paint (package:flutter/src/rendering/shifted_box.dart:98:15)
+#31     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#32     PaintingContext.paintChild (package:flutter/src/rendering/object.dart:265:13)
+#33     RenderProxyBoxMixin.paint (package:flutter/src/rendering/proxy_box.dart:143:13)
+#34     RenderObject._paintWithContext (package:flutter/src/rendering/object.dart:3568:7)
+#35     PaintingContext._repaintCompositedChild (package:flutter/src/rendering/object.dart:180:11)
+#36     PaintingContext.repaintCompositedChild (package:flutter/src/rendering/object.dart:125:5)
+#37     PipelineOwner.flushPaint (package:flutter/src/rendering/object.dart:1325:31)
+#38     PipelineOwner.flushPaint (package:flutter/src/rendering/object.dart:1335:15)
+#39     RendererBinding.drawFrame (package:flutter/src/rendering/binding.dart:645:23)
+#40     WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:1573:13)
+#41     RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:509:5)
+#42     SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#43     SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#44     LiveTestWidgetsFlutterBinding.handleDrawFrame (package:flutter_test/src/binding.dart:2811:13)
+#45     SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1198:5)
+#49     _invoke (dart:ui/hooks.dart:425:10)
+#50     PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:447:5)
+#51     _drawFrame (dart:ui/hooks.dart:395:31)
+(elided 3 frames from dart:async)
+
+This exception was caught while trying to describe the user-relevant code of another error.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 70 pixels on the bottom.
+
+The relevant error-causing widget was:
+  Column
+  Column:file:///root/project_mat/digifact/lib/presentation/pages/onboarding/widgets/slide_page.dart:25:18
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#a1343 OVERFLOWING:
+  needs compositing
+  creator: Column ← FadeTransition ← FractionalTranslation ← SlideTransition ← Padding ← SlidePage ←
+    RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
+    NotificationListener<KeepAliveNotification> ← KeepAlive ← AutomaticKeepAlive ← ⋯
+  parentData: <none> (can use size)
+  constraints: BoxConstraints(w=355.4, h=465.4)
+  size: Size(355.4, 465.4)
+  direction: vertical
+  mainAxisAlignment: center
+  mainAxisSize: max
+  crossAxisAlignment: center
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+UJI|onboarding sampai beranda|LULUS|
+UJI|status layanan online|GAGAL|
+UJI|masukan kurang dari 10 karakter ditolak|LULUS|
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 3.8 pixels on the bottom.
+
+The relevant error-causing widget was:
+  Column Column:file:///root/project_mat/digifact/lib/presentation/widgets/error_dialog.dart:35:16
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#d5196 relayoutBoundary=up7 OVERFLOWING:
+  creator: Column ← Padding ← DecoratedBox ← Container ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+    _InkFeatures-[GlobalKey#83d07 ink renderer] ← NotificationListener<LayoutChangedNotification> ←
+    CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← _MaterialInterior ← ⋯
+  parentData: offset=Offset(29.5, 29.5) (can use size)
+  constraints: BoxConstraints(221.0<=w<=272.4, 0.0<=h<=257.2)
+  size: Size(272.4, 257.2)
+  direction: vertical
+  mainAxisAlignment: start
+  mainAxisSize: min
+  crossAxisAlignment: center
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+UJI|teks kurang dari 12 kata menghasilkan hasil|GAGAL|-1ms
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 3.8 pixels on the bottom.
+
+The relevant error-causing widget was:
+  Column Column:file:///root/project_mat/digifact/lib/presentation/widgets/error_dialog.dart:35:16
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#4986a relayoutBoundary=up7 OVERFLOWING:
+  creator: Column ← Padding ← DecoratedBox ← Container ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+    _InkFeatures-[GlobalKey#8f68a ink renderer] ← NotificationListener<LayoutChangedNotification> ←
+    CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← _MaterialInterior ← ⋯
+  parentData: offset=Offset(29.5, 29.5) (can use size)
+  constraints: BoxConstraints(221.0<=w<=272.4, 0.0<=h<=257.2)
+  size: Size(272.4, 257.2)
+  direction: vertical
+  mainAxisAlignment: start
+  mainAxisSize: min
+  crossAxisAlignment: center
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 3.8 pixels on the bottom.
+
+The relevant error-causing widget was:
+  Column Column:file:///root/project_mat/digifact/lib/presentation/widgets/error_dialog.dart:35:16
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#fb978 relayoutBoundary=up7 OVERFLOWING:
+  creator: Column ← Padding ← DecoratedBox ← Container ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+    _InkFeatures-[GlobalKey#01291 ink renderer] ← NotificationListener<LayoutChangedNotification> ←
+    CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← _MaterialInterior ← ⋯
+  parentData: offset=Offset(29.5, 29.5) (can use size)
+  constraints: BoxConstraints(221.0<=w<=272.4, 0.0<=h<=257.2)
+  size: Size(272.4, 257.2)
+  direction: vertical
+  mainAxisAlignment: start
+  mainAxisSize: min
+  crossAxisAlignment: center
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+UJI|latensi end-to-end teks valid|GAGAL|tidak ada hasil
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following HandshakeException was thrown running a test:
+Handshake error in client (OS Error:
+	CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate(handshake.cc:298))
+
+When the exception was thrown, this was the stack:
+#0      _SecureFilterImpl._handshake (dart:io-patch/secure_socket_patch.dart:101:46)
+#1      _SecureFilterImpl.handshake (dart:io-patch/secure_socket_patch.dart:146:25)
+#2      _RawSecureSocket._secureHandshake (dart:io/secure_socket.dart:995:54)
+#3      _RawSecureSocket._tryFilter (dart:io/secure_socket.dart:1127:19)
+<asynchronous suspension>
+
+The test description was:
+  uji perangkat DigiFact
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (9) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+04:08 +0 -1: uji perangkat DigiFact [E]
+  Test failed. See exception logs above.
+  The test description was: uji perangkat DigiFact
+  
+04:08 +0 -1: (tearDownAll)
+04:08 +0 -1: Some tests failed.
+
+Failing tests:
+  /root/project_mat/digifact/integration_test/ujian_perangkat_test.dart: uji perangkat DigiFact

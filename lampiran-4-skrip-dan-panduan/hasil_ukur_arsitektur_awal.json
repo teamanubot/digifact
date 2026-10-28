@@ -1,0 +1,39 @@
+{
+  "versi": "awal",
+  "berkas": 10,
+  "baris_tidak_kosong": 4784,
+  "rata_rata_baris": 478.4,
+  "terbesar": [
+    "views/result_screen.dart",
+    1185
+  ],
+  "berkas_di_atas_300": 6,
+  "berkas_di_atas_500": 4,
+  "impor_lintas_lapisan": 16,
+  "lapisan": {
+    "(akar)": {
+      "berkas": 1,
+      "Ca": 0,
+      "Ce": 1,
+      "I": 1.0
+    },
+    "models": {
+      "berkas": 1,
+      "Ca": 5,
+      "Ce": 0,
+      "I": 0.0
+    },
+    "services": {
+      "berkas": 2,
+      "Ca": 6,
+      "Ce": 2,
+      "I": 0.25
+    },
+    "views": {
+      "berkas": 6,
+      "Ca": 1,
+      "Ce": 5,
+      "I": 0.83
+    }
+  }
+}

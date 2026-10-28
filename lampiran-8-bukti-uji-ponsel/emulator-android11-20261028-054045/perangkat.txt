@@ -1,0 +1,15 @@
+waktu_mulai=2026-10-28T05:40:53+07:00
+mode=emulator
+ro.product.manufacturer=Google
+ro.product.marketname=
+ro.product.model=sdk_gphone_x86_64
+ro.build.version.release=11
+ro.build.version.sdk=30
+ro.build.display.id=sdk_gphone_x86_64-userdebug 11 RSR1.240422.006 12134477 dev-keys
+Physical size: 1080x1920
+Physical density: 420
+Active default network: 101
+ping api.rmun.tech:
+3 packets transmitted, 3 received, 0% packet loss, time 2005ms
+rtt min/avg/max/mdev = 191.770/192.757/194.010/0.933 ms
+waktu_selesai=2026-10-28T05:42:35+07:00

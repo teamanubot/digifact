@@ -1,0 +1,17 @@
+waktu_mulai=2026-10-28T04:34:19+07:00
+mode=wifi
+ro.product.manufacturer=Xiaomi
+ro.product.marketname=POCO F5
+ro.product.model=23049PCD8G
+ro.build.version.release=15
+ro.build.version.sdk=35
+ro.build.display.id=AQ3A.250226.002
+Physical size: 1080x2400
+Physical density: 440
+Active default network: 133
+network{129}  handle{557456478221}  ni{MOBILE[LTE] CONNECTED
+network{133}  handle{574636347405}  ni{WIFI CONNECTED
+ping api.rmun.tech:
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 73.726/82.383/87.056/6.127 ms
+waktu_selesai=2026-10-28T04:35:51+07:00

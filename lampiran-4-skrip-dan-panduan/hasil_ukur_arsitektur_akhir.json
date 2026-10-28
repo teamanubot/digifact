@@ -1,0 +1,51 @@
+{
+  "versi": "akhir",
+  "berkas": 104,
+  "baris_tidak_kosong": 6026,
+  "rata_rata_baris": 57.9,
+  "terbesar": [
+    "presentation/pages/result/widgets/xai_tabs.dart",
+    259
+  ],
+  "berkas_di_atas_300": 0,
+  "berkas_di_atas_500": 0,
+  "impor_lintas_lapisan": 169,
+  "lapisan": {
+    "(akar)": {
+      "berkas": 1,
+      "Ca": 0,
+      "Ce": 1,
+      "I": 1.0
+    },
+    "app": {
+      "berkas": 8,
+      "Ca": 48,
+      "Ce": 3,
+      "I": 0.06
+    },
+    "core": {
+      "berkas": 6,
+      "Ca": 20,
+      "Ce": 0,
+      "I": 0.0
+    },
+    "data": {
+      "berkas": 9,
+      "Ca": 1,
+      "Ce": 8,
+      "I": 0.89
+    },
+    "domain": {
+      "berkas": 16,
+      "Ca": 21,
+      "Ce": 10,
+      "I": 0.32
+    },
+    "presentation": {
+      "berkas": 64,
+      "Ca": 1,
+      "Ce": 47,
+      "I": 0.98
+    }
+  }
+}

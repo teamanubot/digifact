@@ -1,0 +1,27 @@
+{
+  "trained_at": "2026-09-30T16:50:58",
+  "algorithm": "TF-IDF (unigram) + RandomForest(300 pohon)",
+  "n_train": 2550,
+  "n_test": 638,
+  "test_accuracy": 0.8871,
+  "test_f1_macro": 0.8871,
+  "cv_f1_macro_mean": 0.8655,
+  "cv_f1_macro_std": 0.0079,
+  "old_hoax_recall": 0.7524,
+  "threshold": 0.65,
+  "threshold_coverage_test": 0.8135,
+  "threshold_accuracy_test": 0.9461,
+  "input_window_words": [
+    12,
+    60
+  ],
+  "classes": {
+    "0": "Fakta",
+    "1": "Hoaks"
+  },
+  "known_limitations": [
+    "Dua sumber data (Antara vs Komdigi): label masih berkorelasi dengan gaya sumber.",
+    "Dilatih pada teks 12-60 kata; teks lebih panjang dievaluasi pada jendela awalnya.",
+    "Model mengenali pola hoaks, bukan memverifikasi kebenaran faktual sebuah klaim."
+  ]
+}

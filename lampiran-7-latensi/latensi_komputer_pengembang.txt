@@ -1,0 +1,6 @@
+⚠️ [AUDIT MANUSIA] Kasus ambigu (68.00%) dicatat ke berkas log.
+n=20 teks; komputer: 24 thread
+prediksi  median=0.051 s  maks=0.099 s
+shap      median=0.135 s  maks=0.162 s
+lime      median=0.226 s  maks=0.255 s
+total     median=0.410 s  maks=0.450 s

@@ -1,0 +1,82 @@
+Data uji eksternal: 104 teks  (52 Fakta, 52 Hoaks)
+
+== Tanpa ambang (semua kasus diputuskan)
+Akurasi : 0.702   F1 macro: 0.699
+              precision    recall  f1-score   support
+
+       Fakta      0.756     0.596     0.667        52
+       Hoaks      0.667     0.808     0.730        52
+
+    accuracy                          0.702       104
+   macro avg      0.711     0.702     0.699       104
+weighted avg      0.711     0.702     0.699       104
+
+Confusion matrix [[TN FP] [FN TP]]:
+ [[31 21]
+ [10 42]]
+
+== Dengan ambang 0.65 (seperti di API)
+Cakupan (bukan Netral): 0.577
+Akurasi kasus yang diputuskan: 0.867
+
+== Per sumber
+                           n  akurasi
+Sumber                               
+Al Jazeera                 1    1.000
+BPS                        1    1.000
+Bisnis.com                 1    0.000
+CNBC Indonesia             3    1.000
+CNN Indonesia              3    0.333
+Cekfakta.com               2    0.500
+Disway                     1    0.000
+Fortune Indonesia          1    1.000
+Goal.com Indonesia         1    1.000
+IDN Times                  1    1.000
+Indoposco                  1    0.000
+Journalarta                1    0.000
+Ketik.com                  1    1.000
+Kompas.com                 6    0.833
+Kompas.com (Cek Fakta)    10    0.800
+Kompas.id                  1    0.000
+Kontan                     1    0.000
+Liputan6.com               5    0.400
+Liputan6.com (Cek Fakta)  10    0.900
+Medcom.id                  2    1.000
+Media Indonesia            2    0.500
+MerahPutih.com             1    0.000
+Merdeka.com                1    1.000
+Metro Jateng               1    1.000
+Periskop.id                1    1.000
+Radar Pati (Jawa Pos)      1    1.000
+Republika                  1    1.000
+Suara.com                  1    1.000
+Tempo                      1    0.000
+Tempo (Cek Fakta)         10    0.800
+The Hill (AP)              1    1.000
+Tirto.id                   1    0.000
+TurnBackHoax (Mafindo)    20    0.800
+VIVA                       1    0.000
+Warta Kepri                1    1.000
+detikFinance               1    0.000
+detikJabar                 1    1.000
+detikJatim                 1    0.000
+detikNews                  2    0.500
+detikProperti              1    0.000
+detikTravel                1    1.000
+
+== Diagnosis set uji
+Panjang Fakta: min 15, median 21, maks 25 kata
+Panjang Hoaks: min 17, median 23, maks 28 kata
+Aturan panjang saja (Hoaks jika < 29 kata): akurasi 0.500  vs model 0.702
+
+Kesalahan yang diputuskan model (di atas ambang): 8 dari 60
+  [fakta, p_hoaks=0.91] Presiden Prabowo Subianto melantik Suahasil Nazara sebagai Menteri Keuangan menggantikan Purbaya Yudhi Sadewa 
+  [hoax, p_hoaks=0.34] Pemerintah Provinsi Jawa Barat akan kembali memberlakukan pembayaran SPP bagi siswa SMA dan SMK negeri. Orang 
+  [hoax, p_hoaks=0.28] Kebakaran hutan di Kalimantan telah merambat hingga ke kawasan Ibu Kota Nusantara. Foto kobaran api besar di s
+  [hoax, p_hoaks=0.34] Ajudan Jampidsus Febrie Adriansyah tewas ditembak oleh sosok misterius, dan jasadnya hingga kini tidak ditemuk
+  [hoax, p_hoaks=0.25] Pemerintah akan menetapkan Aceh sebagai wilayah Darurat Operasi Militer mulai 1 September 2026. Informasi ini 
+  [fakta, p_hoaks=0.71] Kelompok pertama merupakan bagian dari 5.000 warga Myanmar yang menurut pemerintah Malaysia bersedia dipulangk
+  [hoax, p_hoaks=0.24] Lima jurnalis yang dilaporkan hilang kontak ternyata terdampar di Kepulauan Seribu. Kabar tersebut beredar di 
+  [fakta, p_hoaks=0.67] Timnas Indonesia mengalahkan Singapura 2-0 pada laga pembuka FIFA ASEAN Cup 2026. Pelatih John Herdman kemudia
+
+Akurasi 0.702, interval kepercayaan 95% (Wilson): [0.608, 0.781]

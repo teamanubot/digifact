@@ -1,0 +1,16 @@
+### wifi-20261028-043411
+UJI|teks kurang dari 12 kata menghasilkan hasil|LULUS|1633ms
+UJI|latensi end-to-end teks valid|LULUS|n=5; median=1616ms; maks=1790ms; semua=[1790, 1616, 1629, 1598, 1613]
+UJI|rincian waktu (Server-Timing)|LULUS|median ms: total=1247; layanan=822 (prediksi=59, shap=218, lime=549); jaringan dan koneksi=411
+### seluler-20261028-043716
+UJI|teks kurang dari 12 kata menghasilkan hasil|LULUS|1743ms
+UJI|latensi end-to-end teks valid|LULUS|n=5; median=1790ms; maks=1903ms; semua=[1815, 1903, 1790, 1759, 1781]
+UJI|rincian waktu (Server-Timing)|LULUS|median ms: total=1664; layanan=829 (prediksi=59, shap=217, lime=554); jaringan dan koneksi=803
+### emulator-android11-20261028-054045
+UJI|teks kurang dari 12 kata menghasilkan hasil|LULUS|1484ms
+UJI|latensi end-to-end teks valid|LULUS|n=5; median=1518ms; maks=1615ms; semua=[1415, 1615, 1549, 1510, 1518]
+UJI|rincian waktu (Server-Timing)|LULUS|median ms: total=1192; layanan=807 (prediksi=59, shap=213, lime=538); jaringan dan koneksi=360
+### emulator-android7.0-setelah-perbaikan-sertifikat-20261028-060533
+UJI|teks kurang dari 12 kata menghasilkan hasil|LULUS|1271ms
+UJI|latensi end-to-end teks valid|LULUS|n=5; median=1236ms; maks=1341ms; semua=[1341, 1236, 1312, 1216, 1214]
+UJI|rincian waktu (Server-Timing)|LULUS|median ms: total=1039; layanan=823 (prediksi=59, shap=214, lime=539); jaringan dan koneksi=231
