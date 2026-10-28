@@ -1,4 +1,4 @@
-# Lampiran 2 — Keluaran Pengujian Otomatis
+# Lampiran Keluaran Pengujian — Keluaran Pengujian Otomatis
 
 | Berkas | Isi |
 |---|---|

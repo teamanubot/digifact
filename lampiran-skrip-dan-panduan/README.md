@@ -1,4 +1,4 @@
-# Lampiran 4 — Skrip Pengukur, Skrip Pengujian, dan Panduan
+# Lampiran Skrip dan Panduan — Skrip Pengukur, Skrip Pengujian, dan Panduan
 
 | Berkas | Fungsi |
 |---|---|

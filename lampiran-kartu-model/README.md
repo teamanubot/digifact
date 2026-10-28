@@ -1,4 +1,4 @@
-# Lampiran 5 — Kartu Model dan Evaluasi
+# Lampiran Kartu Model — Kartu Model dan Evaluasi
 
 | Berkas | Isi |
 |---|---|

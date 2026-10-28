@@ -1,4 +1,4 @@
-# Lampiran 1 — Arsip Versi Kode DigiFact
+# Lampiran Arsip Kode — Arsip Versi Kode DigiFact
 
 Dua arsip pembanding untuk pengukuran kualitas arsitektur (Bab III, Subbab 3.3 dan 3.8.3).
 

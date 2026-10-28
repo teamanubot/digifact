@@ -1,4 +1,4 @@
-# Lampiran 8 — Bukti Uji pada Ponsel dan Emulator Android
+# Lampiran Bukti Uji Ponsel — Bukti Uji pada Ponsel dan Emulator Android
 
 Setiap folder berisi `rekaman_layar.mp4`, `log_uji.txt` (baris `UJI|…` = hasil tiap skenario), `perangkat.txt` (model, versi Android, jaringan, ping, waktu), dan `SHA256SUMS.txt`. Periksa keutuhan: `sha256sum -c SHA256SUMS.txt` di tiap folder.
 

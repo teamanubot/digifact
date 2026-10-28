@@ -1,4 +1,4 @@
-# Lampiran 7 — Hasil Pengukuran Latensi
+# Lampiran Latensi — Hasil Pengukuran Latensi
 
 Median dalam detik. Layanan: `https://api.rmun.tech` (VPS). Komponen layanan dibaca dari header `Server-Timing`.
 

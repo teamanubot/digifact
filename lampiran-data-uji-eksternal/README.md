@@ -1,4 +1,4 @@
-# Lampiran 6 — Data Uji Eksternal (`uji_100.csv`)
+# Lampiran Data Uji Eksternal — Data Uji Eksternal (`uji_100.csv`)
 
 104 teks berlabel manual yang **tidak pernah dipakai** untuk pelatihan, pemilihan ambang, maupun penyetelan parameter model.
 

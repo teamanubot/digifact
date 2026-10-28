@@ -1,4 +1,4 @@
-# Lampiran 3 — Laporan Cakupan Kode
+# Lampiran Cakupan Kode — Laporan Cakupan Kode
 
 | Berkas | Isi |
 |---|---|
